@@ -1,0 +1,305 @@
+@import url('assets/fonts/GeneralSans/Fonts/WEB/css/general-sans.css');
+
+body {
+    margin: 0;
+    background-color: #0F1115;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2A2E38;
+    width: 100%;
+    height: 5em;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+header > .logo, .lang-switcher {
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'GeneralSans-Semibold';
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: #F2F4F8;
+}
+
+.puzzle_border {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    justify-items: center;
+    padding: clamp(3rem, 9vw, 9em) clamp(2rem, 6vw, 6em);
+}
+
+.container img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+p {
+    color: #F2F4F8;
+    font-family: 'GeneralSans-Medium';
+    font-size: clamp(0.75rem, 1.2vw, 1rem);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color: #F2F4F8;
+    font-family: GeneralSans-Semibold;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+h1 {
+    color: #F2F4F8;
+    font-family: GeneralSans-Semibold;
+    font-size: clamp(1.2rem, 2.6vw, 2.3rem);
+}
+
+h2 {
+    color: #F2F4F8;
+    font-family: GeneralSans-Semibold;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    text-align: center;
+}
+
+h3 {
+    color: #F2F4F8;
+    font-family: GeneralSans-Medium;
+    font-size: clamp(1rem, 1.8vw, 1.4rem);
+    font-weight: 500;
+    padding: 2em clamp(1rem, 6vw, 6em);
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.CTA {
+    background-color: #6B85FF;
+    color: #F2F4F8;
+    border: none;
+    border-radius: 0.75rem;
+    padding: 1rem 2rem;
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    font-family: 'GeneralSans-Semibold';
+    cursor: pointer;
+}
+
+.container > div {
+    text-align: center;
+    align-content: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    justify-items: center;
+    width: 100%;
+}
+
+.testimonials-grid > img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: clamp(2em, 2vw, 6em);
+    box-sizing: border-box;
+}
+
+.testimonials > h2 {
+    margin-top: 1em;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem clamp(2rem, 10vw, 12rem);
+}
+
+.faq-item {
+  width: 100%;
+  border-top: 1px solid #F2F4F8;
+  padding: 1.2rem 0;
+  max-width: 60vw;
+}
+
+.faq-item:last-of-type {
+  border-bottom: 1px solid #F2F4F8;
+}
+
+.faq-item summary {
+  font-family: 'GeneralSans-Semibold';
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  color: #F2F4F8;
+  cursor: pointer;
+  list-style: none; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-arrow {
+  transition: transform 0.2s;
+}
+
+.faq-item[open] .faq-arrow {
+  transform: rotate(180deg);
+}
+
+.faq-item p {
+  color: #F2F4F8;
+  font-family: 'GeneralSans-Medium';
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(2rem, 5vw, 5rem);
+}
+
+.cta-section > h2 {
+    margin-top: 3em;
+}
+
+.cta-section > .CTA {
+    background-color: #6B85FF;
+    color: #F2F4F8;
+    border: none;
+    border-radius: 0.75rem;
+    padding: 1rem 3rem;
+    font-size: clamp(1.2rem, 3vw, 2.4rem);
+    font-family: 'GeneralSans-Semibold';
+    cursor: pointer;
+    width: auto;
+}
+
+footer {
+    padding: clamp(1.5rem, 3vw, 3rem);
+    background-color: #2A2E38;
+    margin-top: 2em;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-col h4 {
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    color: #F2F4F8;
+    font-family: 'GeneralSans-Semibold';
+    font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+}
+
+.footer-col h4:first-child {
+    margin-top: 0;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: #F2F4F8;
+    font-family: 'GeneralSans-Regular';
+    font-size: clamp(0.85rem, 1.2vw, 1.1rem);
+    cursor: pointer;
+}
+
+.footer-copy {
+    text-align: right;
+    margin-top: 2rem;
+    color: #828282;
+    font-family: 'GeneralSans-Semibold';
+    font-size: clamp(0.85rem, 1.5vw, 1.25rem);
+}
+
+@font-face {
+    font-family: 'GeneralSans-Regular';
+    src: url('../fonts/GeneralSans-Regular.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Regular.woff') format('woff'),
+         url('../fonts/GeneralSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeneralSans-Medium';
+    src: url('../fonts/GeneralSans-Medium.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Medium.woff') format('woff'),
+         url('../fonts/GeneralSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeneralSans-Semibold';
+    src: url('../fonts/GeneralSans-Semibold.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Semibold.woff') format('woff'),
+         url('../fonts/GeneralSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeneralSans-Bold';
+    src: url('../fonts/GeneralSans-Bold.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Bold.woff') format('woff'),
+         url('../fonts/GeneralSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
