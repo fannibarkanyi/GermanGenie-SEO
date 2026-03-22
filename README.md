@@ -1,0 +1,2 @@
+# GermanGenie SEO
+
