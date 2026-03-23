@@ -1,5 +1,3 @@
-@import url('assets/fonts/GeneralSans/Fonts/WEB/css/general-sans.css');
-
 body {
     margin: 0;
     background-color: #0F1115;
@@ -41,6 +39,11 @@ header > .logo, .lang-switcher {
     display: block;
 }
 
+.highlight {
+    background-color: #1C3CD9;
+    padding: 0 0.1em;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -69,41 +72,41 @@ p {
 
 .logo {
     color: #F2F4F8;
-    font-family: GeneralSans-Semibold;
+    font-family: 'GeneralSans-Semibold';
     font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 h1 {
     color: #F2F4F8;
-    font-family: GeneralSans-Semibold;
+    font-family: 'GeneralSans-Semibold';
     font-size: clamp(1.2rem, 2.6vw, 2.3rem);
 }
 
 h2 {
     color: #F2F4F8;
-    font-family: GeneralSans-Semibold;
+    font-family: 'GeneralSans-Semibold';
     font-size: clamp(1.5rem, 3vw, 2.5rem);
     text-align: center;
 }
 
 h3 {
     color: #F2F4F8;
-    font-family: GeneralSans-Medium;
+    font-family: 'GeneralSans-Medium';
     font-size: clamp(1rem, 1.8vw, 1.4rem);
     font-weight: 500;
     padding: 2em clamp(1rem, 6vw, 6em);
 }
 
 .cta-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 400px;
-  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .CTA {
-    background-color: #6B85FF;
+    background-color: #1C3CD9;
     color: #F2F4F8;
     border: none;
     border-radius: 0.75rem;
@@ -147,52 +150,52 @@ h3 {
 }
 
 .faq {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4rem clamp(2rem, 10vw, 12rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem clamp(2rem, 10vw, 12rem);
 }
 
 .faq-item {
-  width: 100%;
-  border-top: 1px solid #F2F4F8;
-  padding: 1.2rem 0;
-  max-width: 60vw;
+    width: 100%;
+    border-top: 1px solid #F2F4F8;
+    padding: 1.2rem 0;
+    max-width: 60vw;
 }
 
 .faq-item:last-of-type {
-  border-bottom: 1px solid #F2F4F8;
+    border-bottom: 1px solid #F2F4F8;
 }
 
 .faq-item summary {
-  font-family: 'GeneralSans-Semibold';
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
-  color: #F2F4F8;
-  cursor: pointer;
-  list-style: none; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    font-family: 'GeneralSans-Semibold';
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    color: #F2F4F8;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .faq-item summary::-webkit-details-marker {
-  display: none;
+    display: none;
 }
 
 .faq-arrow {
-  transition: transform 0.2s;
+    transition: transform 0.2s;
 }
 
 .faq-item[open] .faq-arrow {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .faq-item p {
-  color: #F2F4F8;
-  font-family: 'GeneralSans-Medium';
-  font-size: clamp(0.85rem, 1.2vw, 1rem);
-  margin-top: 1rem;
-  line-height: 1.6;
+    color: #F2F4F8;
+    font-family: 'GeneralSans-Medium';
+    font-size: clamp(0.85rem, 1.2vw, 1rem);
+    margin-top: 1rem;
+    line-height: 1.6;
 }
 
 .cta-section {
@@ -207,7 +210,7 @@ h3 {
 }
 
 .cta-section > .CTA {
-    background-color: #6B85FF;
+    background-color: #1C3CD9;
     color: #F2F4F8;
     border: none;
     border-radius: 0.75rem;
@@ -236,15 +239,18 @@ footer {
     gap: 0.5rem;
 }
 
-.footer-col h4 {
+.footer-col h3 {
     margin-bottom: 0.5rem;
     margin-top: 1.5rem;
     color: #F2F4F8;
     font-family: 'GeneralSans-Semibold';
     font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+    padding: 0;
+    font-weight: normal;
+    text-align: left;
 }
 
-.footer-col h4:first-child {
+.footer-col h3:first-child {
     margin-top: 0;
 }
 
@@ -259,16 +265,14 @@ footer {
 .footer-copy {
     text-align: right;
     margin-top: 2rem;
-    color: #828282;
+    color: #BDBDBD;
     font-family: 'GeneralSans-Semibold';
     font-size: clamp(0.85rem, 1.5vw, 1.25rem);
 }
 
 @font-face {
     font-family: 'GeneralSans-Regular';
-    src: url('../fonts/GeneralSans-Regular.woff2') format('woff2'),
-         url('../fonts/GeneralSans-Regular.woff') format('woff'),
-         url('../fonts/GeneralSans-Regular.ttf') format('truetype');
+    src: url('assets/fonts/GeneralSans/Fonts/WEB/fonts/GeneralSans-Regular.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
     font-style: normal;
@@ -276,9 +280,7 @@ footer {
 
 @font-face {
     font-family: 'GeneralSans-Medium';
-    src: url('../fonts/GeneralSans-Medium.woff2') format('woff2'),
-         url('../fonts/GeneralSans-Medium.woff') format('woff'),
-         url('../fonts/GeneralSans-Medium.ttf') format('truetype');
+    src: url('assets/fonts/GeneralSans/Fonts/WEB/fonts/GeneralSans-Medium.woff2') format('woff2');
     font-weight: 500;
     font-display: swap;
     font-style: normal;
@@ -286,9 +288,7 @@ footer {
 
 @font-face {
     font-family: 'GeneralSans-Semibold';
-    src: url('../fonts/GeneralSans-Semibold.woff2') format('woff2'),
-         url('../fonts/GeneralSans-Semibold.woff') format('woff'),
-         url('../fonts/GeneralSans-Semibold.ttf') format('truetype');
+    src: url('assets/fonts/GeneralSans/Fonts/WEB/fonts/GeneralSans-Semibold.woff2') format('woff2');
     font-weight: 600;
     font-display: swap;
     font-style: normal;
@@ -296,9 +296,7 @@ footer {
 
 @font-face {
     font-family: 'GeneralSans-Bold';
-    src: url('../fonts/GeneralSans-Bold.woff2') format('woff2'),
-         url('../fonts/GeneralSans-Bold.woff') format('woff'),
-         url('../fonts/GeneralSans-Bold.ttf') format('truetype');
+    src: url('assets/fonts/GeneralSans/Fonts/WEB/fonts/GeneralSans-Bold.woff2') format('woff2');
     font-weight: 700;
     font-display: swap;
     font-style: normal;

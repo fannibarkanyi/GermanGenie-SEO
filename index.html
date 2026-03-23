@@ -12,6 +12,7 @@
     <meta property="og:url" content="https://german-genie-seo.vercel.app/">
     <meta property="og:type" content="website">
 
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/GeneralSans/Fonts/WEB/fonts/GeneralSans-Semibold.woff2" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" href="assets/favicon.ico">
     <link rel="preload" as="image" href="assets/first_illustration.svg">
@@ -109,6 +110,8 @@
         en <img src="assets/down_button.svg" alt="dropdown icon">
         </button>
     </header>
+
+    <main>
     <div class="container">
         <img src="assets/first_illustration.svg" alt="Start your German learning journey with GermanGenie">
         <div>
@@ -120,11 +123,11 @@
         <p>Join 1,200 learners who started this week</p>
         </div>
     </div>
-    <img src="assets/puzzle_border.svg" alt="puzzle pieces border" class="puzzle_border">
+    <img src="assets/puzzle_border.svg" alt="puzzle pieces border" class="puzzle_border" fetchpriority="high">
     <div class="flex">
         <section class="container">
             <div>
-                <h2>The puzzle method</h2>
+                <h2>The <span class="highlight">puzzle</span> method</h2>
                 <h3>GermanGenie makes your learning experience unique with it’s very own <u>puzzle method!</u> Learn German grammar intuitively by putting sentences together piece by piece.</h3>
             </div>
             <img loading="lazy" src="assets/second_illu.svg" alt="Learn German grammar intuitively with the GermanGenie puzzle method">
@@ -132,13 +135,13 @@
         <section class="container">
             <img loading="lazy" src="assets/iphone.svg" alt="GermanGenie app screenshot showing the puzzle method — arrange German words into the correct sentence order">
             <div>
-                <h2>Fun and effective<br/>German lessons</h2>
+                <h2><span class="highlight">Fun</span> and <span class="highlight">effective</span><br/>German lessons</h2>
                 <h3>Our professionally systemized lessons help you achieve your language goals with an <u>easy, gamified</u> learning environment.</h3>
             </div>
         </section>
         <section class="container">
             <div>
-                <h2>Now online &<br/>free of charge</h2>
+                <h2>Now <span class="highlight">online</span> &<br/><span class="highlight">free</span> of charge</h2>
                 <h3>Get access to all of our lessons in our app, <u>completely free of charge.</u> Learn anytime, anywhere.</h3>
             </div>
             <img loading="lazy" src="assets/third_illu.svg" alt="Learn German online for free, anytime anywhere">
@@ -185,10 +188,12 @@
             <img loading="lazy" src="assets/puzzle_border.svg" alt="puzzle pieces border" class="puzzle_border">
         </section>
     </div>
+    </main>
+    
     <footer>    
         <div class="footer-grid">
             <div class="footer-col">
-                <h4>About us</h4>
+                <h3>About us</h3>
                 <a href="#">Course</a>
                 <a href="#">Mission</a>
                 <a href="#">Approach</a>
@@ -199,10 +204,10 @@
                 <a href="#">Investors</a>
             </div>
             <div class="footer-col">
-                <h4>Apps</h4>
+                <h3>Apps</h3>
                 <a href="#">GermanGenie for Android</a>
                 <a href="#">GermanGenie for iOS</a>
-                <h4>Socials</h4>
+                <h3>Socials</h3>
                 <a href="#">Instagram</a>
                 <a href="#">Youtube</a>
                 <a href="#">TikTok</a>
@@ -210,13 +215,13 @@
                 <a href="#">Blog</a>
             </div>
             <div class="footer-col">
-                <h4>Help and support</h4>
+                <h3>Help and support</h3>
                 <a href="#">Contact us</a>
                 <a href="#">FAQs</a>
                 <a href="#">Status</a>
             </div>
             <div class="footer-col">
-                <h4>Privacy and terms</h4>
+                <h3>Privacy and terms</h3>
                 <a href="#">Community guidelines</a>
                 <a href="#">Terms</a>
                 <a href="#">Privacy</a>
