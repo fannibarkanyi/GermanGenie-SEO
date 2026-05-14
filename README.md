@@ -1,43 +1,42 @@
-# GermanGenie SEO
+# GermanGenie
+## SEO-optimized landing page for an innovative German language learning platform
 
-This repository contains the SEO and SEA strategy work for GermanGenie, a German-learning app focused on grammar. This project was created as part of the university course **"Content Marketing + SEO/SEM Strategie"**.
+GermanGenie is a language learning concept built around a visually intuitive teaching method originally developed by Luca Sotgia under the name DeutschGenie, based on over ten years of teaching experience. The original concept used colors and symbols to make German grammar more tangible. As part of this project, that idea was taken further: rather than colors and symbols alone, the approach was rethought around puzzle pieces as the core mechanic, where learners build sentences by fitting pieces together, making sentence structure something you feel and construct rather than just memorize.
 
-## Project Overview
+The name was also changed from DeutschGenie to GermanGenie. The reasoning is practical: the target users are people who do not yet speak German and are looking for a way in. A German-language brand name creates an unnecessary barrier right at the first point of contact, while GermanGenie is immediately understandable to the audience that needs it most.
 
-The goal of this project was to develop a structured SEO and SEM strategy to support the visibility and marketing performance of the GermanGenie concept. It focuses on improving search engine rankings, defining keyword strategies, and planning paid advertising efforts.
+This repository contains the landing page built as part of the SEO/SEM module of a larger university project centered around GermanGenie. The site itself is intentionally minimal in terms of functionality. The focus of this work was not building a full product, but rather applying SEO best practices to maximize the page's visibility and performance in search engines.
 
-The work applies core principles from the course, including keyword research, on-page optimization, and search engine marketing strategy.
+---
 
-Alongside this repository, a written report titled **“DeutschGenie SEO & SEA Report”** was created. The report contains detailed analysis, optimization strategy, keyword research, and recommendations, and is **not included in this repository**.
+## What this project covers
 
-## Features
+The landing page was built and structured with search engine optimization as the primary goal. This includes keyword research and placement strategy, on-page optimization, semantic HTML structure, schema.org markup for AI crawlers, Core Web Vitals performance, and Open Graph protocol implementation. A companion SEA strategy outlining a hypothetical Google Ads campaign was also developed as part of the module.
 
-- SEO-focused project structure and documentation  
-- Keyword research and targeting strategy  
-- On-page optimization planning  
-- SEM (SEA) strategy considerations  
-- Content structured to support search engine visibility  
+The full written analysis and strategy are documented in a separate report submitted as part of the course requirements and are not included in this repository.
 
-## How It Was Built
+---
 
-This project was created using:
+## Connection to the broader project
 
-- SEO research and analysis methods  
-- Keyword planning and content structuring  
-- Documentation of optimization strategies  
-- Supporting materials for search engine marketing  
+This repository is one part of a multi-module university project built around GermanGenie. The other modules focused on UX/UI design and brand development, including a Figma prototype of the mobile learning app interface, an onboarding concept, and a visual identity. Those deliverables live separately from this repo.
 
-The focus of this repository is on strategy and planning rather than implementation, meaning no full application or backend is included.
+---
 
-## Course Context
+## Tech Stack
 
-This project was completed for the university course:
+- **HTML/CSS** for the landing page structure and styling
+- **Schema.org** markup for structured data and AI crawler optimization
+- **Open Graph** protocol for social sharing metadata
 
-**Content Marketing + SEO/SEM Strategie (Germany)**
+---
 
-It complements the landing page project by focusing specifically on search engine optimization and marketing strategy.
+## Project Context
 
-## Notes
+This project was completed as part of the BAWD3 winter semester 2025/26 at SRH University of Applied Sciences Berlin, under the guidance of Marco Lilli (SEO/SEM module), in connection with the original DeutschGenie concept by Luca Sotgia.
 
-- The full SEO report and SEA strategy document is **not included** in this repository and was submitted separately as part of the course requirements. # GermanGenie SEO
+---
 
+## Status
+
+The landing page is a course prototype optimized for SEO, not a production-ready product. Functionality is limited by design.
