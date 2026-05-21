@@ -40,3 +40,13 @@ This project was completed as part of the BAWD3 winter semester 2025/26 at SRH U
 ## Status
 
 The landing page is a course prototype optimized for SEO, not a production-ready product. Functionality is limited by design.
+
+---
+
+## Screenshots
+
+<div align="center">
+  <img src="hero.png" width="30%">
+  <img src="description.png" width="30%">
+  <img src="reviews.png" width="30%">
+</div>
